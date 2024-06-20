@@ -1,0 +1,12 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Access to undefined constant Payske\\\\ApiResource\\:\\:OBJECT_NAME\\.$#"
+			count: 1
+			path: lib/ApiResource.php
+
+		-
+			message: "#^Access to undefined constant Payske\\\\SingletonApiResource\\:\\:OBJECT_NAME\\.$#"
+			count: 1
+			path: lib/SingletonApiResource.php
+
